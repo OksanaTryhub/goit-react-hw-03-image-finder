@@ -1,6 +1,10 @@
-import PropTypes from 'prop-types';
-import css from './Loader.module.css';
+import styles from './Loader.module.scss';
 
-const Loader = () => {};
+const Loader = () => (
+  <div className={styles.loader}>
+    <span></span>
+    <span></span>
+  </div>
+);
 
 export default Loader;
