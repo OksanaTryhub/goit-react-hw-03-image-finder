@@ -22,7 +22,7 @@ const ImageGalleryItem = ({ image, onImageClick }) => {
 
 export default ImageGalleryItem;
 
-ImageGalleryItem.propTypese = {
+ImageGalleryItem.propTypes = {
   image: PropTypes.shape({
     id: PropTypes.number.isRequired,
     webformatURL: PropTypes.string.isRequired,
